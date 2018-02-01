@@ -8,59 +8,121 @@
     <title>來吃雞排</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
-    <style>
-        html,
-        boby {
-            height: 5000px;
-        }
-
-        .navbar {
-            position: fixed;
-            margin-left: 50%;
-            transform: translateX(-50%);
-            height: 70px;
-        }
-
-        .food {
-            margin-top: 50px;
-            width: 100%;
-            height: 200vh;
-            background-color: rgb(224, 223, 223);
-            position: relative;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center">
         <a class="navbar-brand" href="#">
-            <img src="/素材/小雞.png">
+            <img src="material/logo.png">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
             aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="collapse navbar-collapse justify-content-center bg-light" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="#foodtitle">炸物介紹</a>
-                <a class="nav-item nav-link active" href="#">食安保證</a>
-                <a class="nav-item nav-link active" href="#">顧客優惠</a>
+                <a class="nav-item nav-link active" href="#foodAnchor">炸物介紹</a>
+                <a class="nav-item nav-link active" href="#verificationAnchor">食安保證</a>
+                <a class="nav-item nav-link active" href="#preferentialTitle">顧客優惠</a>
             </div>
         </div>
     </nav>
-    <div class="banner">
-        <img src="素材/路邊攤-改.jpg">
+    <div class="container-fluid">
+        <div class="banner">
+            <img src="material/banner.jpg">
+        </div>
+        <div class="food">
+            <div id="foodAnchor"></div>
+            <div class="foodTitle">
+                <h1 class="text-center">炸物介紹</h1>
+            </div>
+            <div class="foodBody">
+                <div class="foodBodyLeft">
+                    <img src="material/chicken.jpg" class="rounded-circle">
+                    <p>雞排</p>
+                    <img src="material/leg.jpg" class="rounded-circle">
+                    <p>雞腿</p>
+                    <img src="material/pieces.jpg" class="rounded-circle">
+                    <p>鹹酥雞</p>
+                </div>
+                <div class="foodBodyRight">
+                    <img src="material/wing.jpg" class="rounded-circle">
+                    <p>雞翅</p>
+                    <img src="material/fries.jpg" class="rounded-circle">
+                    <p>薯條</p>
+                    <img src="material/michelle.jpg" class="rounded-circle">
+                    <p>米血</p>
+                </div>
+            </div>
+        </div>
+        <div class="verification">
+            <div id="verificationAnchor"></div>
+            <div class="verificationTitle">
+                <h1 class="text-center">食安保證</h1>
+            </div>
+            <br>
+            <div class="verificationLittleTitle">
+                <h2 class="text-center">買開心．吃安心</h2>
+            </div>
+            <div class="verificationMin">
+                <div class="verificationMinLeft">
+                    <img src="material/SGS.png">
+                </div>
+                <div class="verificationMinRight">
+                    <br>由於近年臺灣的食安新聞，層出不窮
+                    <br>所以為了讓顧客放心
+                    <br>我們特地取得SGS認證
+                    <br>讓您買了開心，吃了安心！
+                </div>
+            </div>
+        </div>
+        <div class="preferential">
+            <div id="preferentialTitle">
+                <h1 class="text-center">顧客優惠</h1>
+            </div>
+            <br>
+            <div class="preferentialLittleTitle">
+                <h2 class="text-center">享受美食．愛護地球</h2>
+            </div>
+            <br>
+            <br>
+            <div class="preferentialMin">
+                <p class="text-center">１.自備購物袋者，折抵＄５</p>
+                <p class="text-center">２.消費超過＄１００，送１份薯條</p>
+            </div>
+        </div>
     </div>
-    <div class="food">
-        <div id="foodtitle">炸物介紹</div>
-        <div class="foodbody"></div>
+    <div class="foot">
+        <div class="footTop">
+            <div class="footTopLeft">
+                <img src="material/phone.png">
+            </div>
+            <div class="footTopRight">
+                <p class="text-center">0987487987</p>
+            </div>
+        </div>
+        <div class="footMid">
+            <div class="footMidLeft">
+                <img src="material/home.png">
+            </div>
+            <div class="footMidRight">
+                <p class="text-center">雞排市雞腿區雞心路87號</p>
+            </div>
+        </div>
+        <div class="footBottom">
+            <p class="text-center">雞皮網路資訊股份有限公司©All Rights Reserved.</p>
+        </div>
     </div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
         crossorigin="anonymous"></script>
+    <script>
+        $('.navbar-nav>a').on('click', function () {
+            $('.navbar-collapse').collapse('hide');
+        });</script>
 </body>
 
 </html>

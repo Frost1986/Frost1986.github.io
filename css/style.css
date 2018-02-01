@@ -1,0 +1,109 @@
+* {
+    font-family: "Arial", "Microsoft JhengHei";
+}
+/* html body {
+    background-color: aquamarine;
+} */
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    height: 55px;
+    font-size: 15pt;
+    background-color: rgba(241, 238, 250, 0.883);
+}
+
+.navbar img {
+    width: 190px;
+    height: 50px;
+}
+
+.banner img {
+    width: 100%;
+    height: 30%;
+}
+
+#foodAnchor {
+    transform: translateY(-80px);
+}
+
+.food {
+    margin-top: 50px;
+    width: 100%;
+    height: 1190px;
+    background-color: rgb(250, 214, 214);
+    position: relative;
+}
+
+.foodBody {
+    letter-spacing: 40pt;
+}
+
+.foodBodyLeft {
+    /* float: none; */
+    color: rgb(89, 0, 255);
+}
+
+.foodBodyRight {
+    color: brown;
+}
+
+.foodBody img {
+    width: 150px;
+    height: 150px;
+}
+
+.foodBody p {
+    display: inline-block;
+}
+
+.verification {
+    margin-top: 50px;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(220, 154, 247, 0.445);
+    letter-spacing: 10pt;
+}
+
+#verificationAnchor {
+    transform: translateY(-80px);
+}
+
+.verification .verificationMinRight {
+    font-size: 15pt;
+}
+
+.preferential {
+    margin-top: 50px;
+    width: 100%;
+    height: 265px;
+    background-color: rgba(177, 224, 252, 0.445);
+    letter-spacing: 10pt;
+}
+
+.preferential .preferentialMin {
+    font-size: 15pt;  
+}
+
+.foot {
+    margin-top: 50px;
+    width: 100%;
+    height: 20vh;
+    /* background-color: rgba(121, 123, 124, 0.972); */
+    letter-spacing: 10pt;
+}
+
+.foot img {
+    width: 30px;
+    height: 30px;
+}
+
+h1 {
+    letter-spacing: 50pt;
+    font-size: 40pt;
+}
+
+h2 {
+    letter-spacing: 30pt;
+    font-size: 25pt;
+}
